@@ -8,11 +8,11 @@ import contactList from "../contacts";
 })
 export class ContactListComponent implements OnInit {
   contacts: object[];
-  newContact: {
-    name: string,
-    email: string,
-    phoneNumber: string,
-    image: string
+  newContact = {
+    name: "",
+    email: "",
+    phoneNumber: "",
+    image: ""
   };
   constructor() { }
 
