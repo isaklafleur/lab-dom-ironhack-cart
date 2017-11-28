@@ -1,0 +1,25 @@
+.input-contact {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 2px;
+  margin: 10px;
+}
+
+.contact-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact {
+  border: 5px solid lightblue;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.btn-add-contact {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: lightblue;
+  margin: 10px;
+}

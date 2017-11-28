@@ -1,67 +1,27 @@
-![Ironhack logo](https://i.imgur.com/1QgrNNw.png)
+# LabAngularIroncontacts2
 
-# PP | IronContacts
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.4.
 
-## Introduction
+## Development server
 
-Over here at Ironlabs, we have found that students like to have a way to keep track of the contacts they make during their Ironhack experience, for furutre projects, and to reminisce about the old times.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-We are going to create a contact management app with Angular.
+## Code scaffolding
 
-You can find the starter code in the starter code folder of this github repo.
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Requirements
+## Build
 
-- [Fork this repo](https://guides.github.com/activities/forking/)
-- Clone this repo into your `~/code/labs`
-- You must submit the entire angular2 app
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
 
-## Submission
+## Running unit tests
 
-Upon completion, run the following commands
-```
-$ git add .
-$ git commit -m "done"
-$ git push origin master
-```
-Navigate to your repo and create a Pull Request from your master branch to the original repository master branch.
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-In the Pull request name, add your name and last names separated by a dash "-"
+## Running end-to-end tests
 
-## Instructions
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-### Iteration 1 | Display Contacts
+## Further help
 
-Let's take a look at the starter code.
-
-There is a file with fake contacts, and the collection of contacts is being exposed to the template in a variable called `contacts`.
-
-Using `*ngFor`, display the `name`, `email`, `phoneNumber`, and `image` of each contact.
-
-### Iteration 2 | Add New Contacts
-
-Currently, there's a form wired up to an `[(ngModel)]` called `newContact`.
-
-When a user clicks the button below this form, it's *supposed* to be calling a function called `addContact`.
-
-Look carefully at the following line and see if you can detect the bug:
-
-```html
-<!-- contact-list.component.html -->
-<button (click)="addContact">Submit New Contact</button>
-```
-
-Then, finish the function inside of the component that adds the contact to the list of contacts:
-
-```typescript
-addContact(){
-  // add contact to contacts list
-  // clear inputs
-}
-```
-
-### Iteration 3 | Styling
-
-Unfortunately, our contacts list isn't really production ready. It doesn't have much styling yet.
-
-Remember the rules when styling. You can add a global stylesheet in your `index.html`, and apply component specific styles in the `.component.css` files.
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
